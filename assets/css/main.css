@@ -1,0 +1,59 @@
+.Landing {
+    max-width: 790px;
+    background-color: #bfbfbf;
+    min-height:200px;
+    margin: 0 auto;
+    padding: 40px 200px 40px 200px;
+}
+
+.Header {
+    position: relative;
+    display: flex;
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+
+.Button {
+    background-color: #afafaf;
+    color:#222222;
+    padding: .75rem 1.5rem;
+    text-align: center ;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none !important;
+    border-bottom: none;
+    transition: all .2s ease-out;
+    max-width: 50%;
+}
+
+.Button:hover {
+    color: #adadad;
+    color: #444444;
+}
+
+.Button.highlighted {
+    color:#fff;
+    background-color:#a80202;
+}
+
+.Button.highlighted:hover {
+    color:#a80202;
+    background-color:#fff
+}
+
+.menu {
+    margin-left:-100px;
+    margin-right: -100px;
+}
+
+.logo {
+    width: 30%;
+    max-width:180px;
+    height:auto;
+    float:right;
+}
+
+.Spacer {
+    padding: inherit 5px;
+}
