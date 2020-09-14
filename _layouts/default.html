@@ -23,6 +23,28 @@
         <a id="forkme_banner" href="https://github.com/cwtools">View on GitHub</a>
       </div>
     </div>
+    <div>
+      <h3 align="center" style="color:#fff">
+        {% if page.url == "/" %}
+        <a href="./get-started">Get started</a>
+        {% else %}
+        <a class="Button highlighted" href="./get-started">Get started</a>
+        {% endif %}
+        <span class="Spacer"> · </span>
+        <a href="./features">Features</a>
+        <span class="Spacer"> · </span>
+        <a href="./projects">Supported games</a>
+        <span class="Spacer"> · </span>
+        <a href="./contribute">Contribute</a>
+        <span class="Spacer"> · </span>
+        <a href="./community">Community</a>
+      </h3>
+      <h3 align="center" style="color:#fff">
+        <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" target="_blank">Download Extension › </a>
+        <span class="Spacer"> · </span>
+        <a href="https://code.visualstudio.com/" target="_blank">Download VS Code › </a>
+      </h3>
+    </div>
     {% if page.url == "/" %}
     <div class="outer">
       <div class="Landing">
@@ -37,26 +59,6 @@
         </div>        
       </div>   
     </div>
-     
-    {% else %}
-      <div>
-        <h3 align="center" style="color:#fff">
-          <a class="Button highlighted" href="./get-started">Get started</a>
-          <span class="Spacer"> · </span>
-          <a href="./features">Features</a>
-          <span class="Spacer"> · </span>
-          <a href="./projects">Supported games</a>
-          <span class="Spacer"> · </span>
-          <a href="./contribute">Contribute</a>
-          <span class="Spacer"> · </span>
-          <a href="./community">Community</a>
-        </h3>
-        <h3 align="center" style="color:#fff">
-          <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" target="_blank">Download Extension › </a>
-          <span class="Spacer"> · </span>
-          <a href="https://code.visualstudio.com/" target="_blank">Download VS Code › </a>
-        </h3>
-      </div>
     {% endif %}
     
 
