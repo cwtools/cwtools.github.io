@@ -8,7 +8,7 @@
 1. Open your mod folder. *Hint: VS Code opens whole projects unlike NP++ which just opens files*
   * Windows: "C:\Users\name\Paradox Interactive\Stellaris\mod\your-mods-name"
   * Linux:   "~/.local/share/Paradox Interactive/Stellars/mod/your-mods-name"
-  ![Open Folder](./assets/gifs/completion.gif)
+  ![Open Folder](./assets/gifs/vs_open_folder.gif)
 2. Follow the prompts to select your vanilla folder
   * 2.1. Should step 2. not be successful open settings and search for "cwtools.cache" and set the game folder manually
 3. Wait up to a minute for the extension to scan all your mods and find all errors
