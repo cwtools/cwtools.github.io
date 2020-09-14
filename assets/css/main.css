@@ -35,8 +35,8 @@
 }
 
 .Button:hover {
-    color: #fff;
-    color: #111;
+    color: #afafaf;
+    background-color: #222222;
 }
 
 .Button.highlighted {
