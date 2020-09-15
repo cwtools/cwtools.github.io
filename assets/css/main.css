@@ -54,7 +54,7 @@
     margin-right: -100px;
 }
 
-.logo {
+.Logo {
     width: 30%;
     max-width:180px;
     height:auto;
@@ -63,4 +63,12 @@
 
 .Spacer {
     padding: inherit 5px;
+}
+
+@media (max-width: 700px) {
+    .Logo {
+        width: 30%;
+        max-width:180px;
+        height:auto;
+    }
 }
