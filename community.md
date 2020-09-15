@@ -7,12 +7,10 @@ Depending on what game you are modding, there are different ways on how to get h
 
 *Think you have found a bug? Go [here >](./contribute)*
 
-<div style="height:60px"></div>
-
 ## Notable projects using CW Tools
 * Kaiserreich Mod for HOI4
 
-# Credits
+## Credits
 * tboby "Dayshine" - Lead Dev
 * Caligula Caesar - Initial set of rules
 * HerrX2000 "Reloader" - Website and EU4 1.30

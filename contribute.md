@@ -1,5 +1,3 @@
-
-
 # Contribute
 
 CWTools is for the community (thanks to Dayshine here 🙂). If you want to help the project, you are invited to contribute. You can help with adding support for new cw games, update existing support for game or help improve the experience with the addon.
@@ -35,5 +33,7 @@ Look at the [CW Tools Wiki](https://github.com/cwtools/cwtools/wiki) for [guidan
 
 * [Improving the extension onboarding experience](https://github.com/cwtools/cwtools-vscode/issues/36)
 
-### Uploading your changes
+## Uploading your changes
 If you'd like to contribute, press the pen icon on any file, then press "Create a new branch for this commit and start a pull request". You can then make further changes as a "pull request". When done, mention it in the pull request and your changes will be included.
+
+*Pro Tip: Submit a PR from your forked repository*
