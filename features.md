@@ -19,29 +19,29 @@
 
 ### Completion
 
-![Completion](./completion.gif)
+![Completion](./assets/gifs/completion.gif)
 
 ### Tooltips
 
-![Tooltips](./tooltips.gif)
+![Tooltips](./assets/gifs/tooltips.gif)
 
 ### Scope tooltips
 
-![Scope tooltips](./scopetooltip.gif)
+![Scope tooltips](./assets/gifs/scopetooltip.gif)
 
 ### Scope errors
 
-![Scope ](./scopeerror.gif)
+![Scope ](./assets/gifs/scopeerror.gif)
 
 ### Localisation error
 
-![Localisation error](./localisationerror.gif)
+![Localisation error](./assets/gifs/localisationerror.gif)
 
 ### Go to definition
 
-![Go to definition](./gotodef.gif)
+![Go to definition](./assets/gifs/gotodef.gif)
 
 ### Find all references
 
-![Find all references](./findallrefs.png)
+![Find all references](./assets/gifs/findallrefs.png)
 

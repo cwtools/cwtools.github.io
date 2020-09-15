@@ -13,58 +13,48 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer" style="padding-top:0px;">        
-        <header>
-          <div class="Header">
-            <img src="./cwtools_logo.png" style="height:63px;margin:0;padding:0;">
-            <h1 id="project_title" style="padding-left: 10px;">{{ site.title | default: site.github.repository_name }}</h1>
-            <a id="forkme_banner" href="https://github.com/cwtools">View on GitHub</a>
-          </div>
-          
-          <div class="inner" style="padding-top: 0;">
-            <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-            {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
-          </div>
-        </header>
+    <div id="header_wrap" class="outer" style="padding-top:0px;">
+      <div class="Header">
+        <a href="./"><img src="./cwtools_logo.png" style="height:63px;margin:0;padding:0;"></a>
+        <header style="margin-left: 10px;">
+          <a href="./"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
+          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        </header>            
+        <a id="forkme_banner" href="https://github.com/cwtools">View on GitHub</a>
+      </div>
+    </div>
+    <div>
+      <h3 align="center" style="color:#fff">
+        <a href="./get-started">Get started</a>
+        <span class="Spacer"> · </span>
+        <a href="./features">Features</a>
+        <span class="Spacer"> · </span>
+        <a href="./projects">Supported games</a>
+        <span class="Spacer"> · </span>
+        <a href="./contribute">Contribute</a>
+        <span class="Spacer"> · </span>
+        <a href="./community">Community</a>
+      </h3>
+      <h3 align="center" style="color:#fff">
+        <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" target="_blank">Download Extension › </a>
+        <span class="Spacer"> · </span>
+        <a href="https://code.visualstudio.com/" target="_blank">Download VS Code › </a>
+      </h3>
     </div>
     {% if page.url == "/" %}
     <div class="outer">
       <div class="Landing">
-        <img src="./cwtools_logo.png" class="logo">
-        <h1> CW Tools </h1>
-        <h3> Fun, productive, cleaner modding </h3>
-        <h3 style="margin-top: 60px;">
-          <a href="./getting-started" class="Button highlighted" style="padding-right:50px">Get started</a>
-          <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" class="Button"  target="_blank">Download › </a>
-        </h3>
+        <div class="LandingContent">
+          <img src="./cwtools_logo.png" class="logo">
+          <h1 style="font-size: 4rem;"> CW Tools </h1>
+          <h3 style="font-size: 2rem;"> Fun, productive, cleaner modding </h3>
+          <h3 style="margin-top: 60px;">
+            <a href="./get-started" class="Button highlighted" style="padding-right:50px">Get started</a>
+            <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" class="Button"  target="_blank">Download › </a>
+          </h3>
+        </div>        
       </div>   
     </div>
-     
-    {% else %}
-      <div>
-        <h3 align="center" style="color:#fff">
-          <a href="./getting-started" style="color:#a80202;">Get started</a>
-          <span class="Spacer"> · </span>
-          <a href="./features">Features</a>
-          <span class="Spacer"> · </span>
-          <a href="./projects">Supported games</a>
-          <span class="Spacer"> · </span>
-          <a href="./contribute">Contribute</a>
-          <span class="Spacer"> · </span>
-          <a href="./community">Community</a>
-        </h3>
-        <h3 align="center" style="color:#fff">
-          <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" target="_blank">Download Extension › </a>
-          <span class="Spacer"> · </span>
-          <a href="https://code.visualstudio.com/" target="_blank">Download VS Code › </a>
-        </h3>
-      </div>
     {% endif %}
     
 
@@ -78,9 +68,8 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} Page maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <p class="copyright">CW Tools lead by <a href="https://github.com/tboby">tboby</a></p>
+        <p class="copyright">CW Website maintained by <a href="https://github.com/HerrX2000">Reloader</a></p>
       </footer>
     </div>
 

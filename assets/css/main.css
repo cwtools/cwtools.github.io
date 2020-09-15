@@ -1,15 +1,22 @@
 .Landing {
-    max-width: 790px;
+    width: 100%;
+    max-width: 1190px;
     background-color: #bfbfbf;
     min-height:200px;
     margin: 0 auto;
-    padding: 40px 200px 40px 200px;
+}
+
+.LandingContent {
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 .Header {
     position: relative;
     display: flex;
-    max-width: 790px;
+    max-width: 1190px;
     margin: 0 auto;
 }
 
@@ -19,7 +26,7 @@
     color:#222222;
     padding: .75rem 1.5rem;
     text-align: center ;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none !important;
     border-bottom: none;
@@ -28,8 +35,8 @@
 }
 
 .Button:hover {
-    color: #adadad;
-    color: #444444;
+    color: #afafaf;
+    background-color: #222222;
 }
 
 .Button.highlighted {
