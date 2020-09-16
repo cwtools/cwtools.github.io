@@ -6,16 +6,18 @@
   * Related localisation
   * Documentation for that element
   * Scope context at that position
-* A wide range of validators for common, interface, and events, checking
-  * That required localisation keys are defined
-  * Existence of effects/triggers/modifiers
-  * Scope context for used effects/triggers/modifiers
-  * Usage of scripted effects/triggers
-  * Correct entries for weights/AI_chance/etc
-  * That event\_targets are saved before they're used
-  * That referenced sprites and graphics files exist
-  * and a number of other specific validators
-* "Code actions" to generate .yml for missing localisation
+* Comprehensive validation covering common, events, and more, checking
+  * That attributes exists, are used in the right place, and are spelled correctly.
+  * That the right number of attributes are defined.
+  * That used types are defined (e.g. events you reference exist, and event\_targets you use exist)
+  * That required localisation keys are defined, and scopes used in them exist.
+  * That scopes are correct for effects/triggers/modifiers.
+  * That referenced sprites/graphics/files exist.
+  * And many more checks on cross-references, values, and correct script usage.
+* Rich IDE features such as "Find all references", "Go to definition" and the Outline view.
+* Intelligent load order handling with multiple mods, so that all features include your mods' additions.
+* "Code actions" to generate .yml for missing localisation.
+* An interactive flowchart showing how events connect.
 
 ### Completion
 

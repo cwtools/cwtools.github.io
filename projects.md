@@ -11,11 +11,11 @@
 | Crusader Kings II     | ❕ partial                 | [ck2-config](https://github.com/cwtools/cwtools-ck2-config)             |
 | Victoria II           | ❕ partial                 | [vic2-config](https://github.com/cwtools/cwtools-vic2-config)           |
 
-✔: Activly maintained but remember the extension is still in preview.
+✔: Up to date and actively maintained.
 
-⚠: Work in progress, it may not work, it may stop working at any time.
+⚠: Work in progress, either outdated or partial coverage.
 
-❕: Basic support provided but not completed and not activly beeing worked on.
+❕: Basic support provided but not completed and not actively being worked on.
 
 
 **Make backups of your mod files.**
