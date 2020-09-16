@@ -1,16 +1,16 @@
 # Contribute
 
-CWTools is for the community (thanks to Dayshine here 🙂). If you want to help the project, you are invited to contribute. You can help with adding support for new cw games, update existing support for game or help improve the experience with the addon.
+CWTools is an Open Source, community project, written for modders by modders 🙂. If you want to help the project, you are invited to contribute. You can help with adding support for new Paradox Interactive games, updating existing support for games, or helping improve the underlying language server and extension.
 
 ## Found a bug?
 
-Create an issue [here >](https://github.com/cwtools/cwtools-vscode/issues) or for the specific [game](./projects) and describe the problem you have encountered.
+Create an issue in the specific [game's repo](./projects), or for general issues in the [extension repo here >](https://github.com/cwtools/cwtools-vscode/issues) and describe the problem you have encountered.
 
 ## Helpful skills
 
 Contributing is much easier then you might think. Only a handful of helpful skills are recommended.
 
-* Basic programming knowledge to faster understand how the tools works
+* Basic programming knowledge to faster understand how the tools work
 * Basic knowledge of Git is useful to share your code with us
 
 ## Help with a specific game
@@ -21,8 +21,8 @@ Contributing is much easier then you might think. Only a handful of helpful skil
     1. (Optional) To make the changes only apply to this folder (not all folders on your computer), change the tab at the top to "workspace settings"
 4. Set "cwtools.rules_version" to "manual"
 5. Set "cwtools.rules_folder" to the path above. e.g. D:\Git\cwtools-ck3-config
-6. Re-open VS Code. Now you are using the rules you have copied also know as cloning to your computer.
-7. Open 1.30 vanilla in one window or your mod, open the rules folder in another window.
+6. Re-open VS Code. Now you are using the rules you have copied (a.k.a. cloned) to your computer.
+7. Open the vanilla game files in one window (or alternatively your mod), and open the rules folder in another window.
 8. Add/change rules that are defined in e.g. D:\Git\cwtools-ck3-config.
 9. Once you make changes to the rules, you can press "Ctrl-shift-p" and select "Reload window" to easily restart the extension.
 10. Confirm errors are reduced, return to step 8.
@@ -34,6 +34,8 @@ Look at the [CW Tools Wiki](https://github.com/cwtools/cwtools/wiki) for [guidan
 * [Improving the extension onboarding experience](https://github.com/cwtools/cwtools-vscode/issues/36)
 
 ## Uploading your changes
-If you'd like to contribute, press the pen icon on any file, then press "Create a new branch for this commit and start a pull request". You can then make further changes as a "pull request". When done, mention it in the pull request and your changes will be included.
+If you're familiar with git, simply make a Pull Request agains the appropriate repo.
+
+Otherwise, find the file you want to edit on GitHub and press the pen icon. Make your changes and press "Create a new branch for this commit and start a pull request". You can then make further changes as a "pull request". When done, mention it in the pull request and your changes will be included.
 
 *Pro Tip: Submit a PR from your forked repository*
