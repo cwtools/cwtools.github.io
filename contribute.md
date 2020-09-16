@@ -34,7 +34,7 @@ Look at the [CW Tools Wiki](https://github.com/cwtools/cwtools/wiki) for [guidan
 * [Improving the extension onboarding experience](https://github.com/cwtools/cwtools-vscode/issues/36)
 
 ## Uploading your changes
-If you're familiar with git, simply make a Pull Request agains the appropriate repo.
+If you're familiar with git, simply make a Pull Request against the appropriate repo.
 
 Otherwise, find the file you want to edit on GitHub and press the pen icon. Make your changes and press "Create a new branch for this commit and start a pull request". You can then make further changes as a "pull request". When done, mention it in the pull request and your changes will be included.
 

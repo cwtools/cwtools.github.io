@@ -16,7 +16,7 @@
   * And many more checks on cross-references, values, and correct script usage.
 * Rich IDE features such as "Find all references", "Go to definition" and the Outline view.
 * Intelligent load order handling with multiple mods, so that all features include your mods' additions.
-* "Code actions" to generate .yml for missing localisa.tion
+* "Code actions" to generate .yml for missing localisation.
 * An interactive flowchart showing how events connect.
 
 ### Completion
