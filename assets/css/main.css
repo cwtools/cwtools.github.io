@@ -4,7 +4,6 @@
     position: relative;
     max-width: 1190px;
     margin: 0 auto;
-    margin-right: 10px;
 }
 
 .HeaderLogo {
@@ -22,7 +21,7 @@
 
 .HeaderSubtitle {
     margin-top: 0;
-    padding-left: 80px;
+    padding-left: 72px;
 }
 
 .Landing {
