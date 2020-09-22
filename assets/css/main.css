@@ -1,22 +1,29 @@
-/*Special Mobile Rules*/
-@media (max-width: 820px) {
-    .HeaderLogo {
-        display: none;
-    }
-    .LandingLogo {
-        display: block;
-        margin: auto;
-        margin-top: 10px;
-        width: 40%;
-    }    
-    .LandingContent {
-        width: 95%;
-        margin: 0 auto;
-        padding: 10px 0 10px 10px;
-    }
+/*General*/
+
+.Header {
+    position: relative;
+    max-width: 1190px;
+    margin: 0 auto;
+    margin-right: 10px;
 }
 
-/*General*/
+.HeaderLogo {
+    width: 64px;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+.HeaderTitle {
+    display: inline;
+    position: relative;
+    bottom: 18px;
+    
+}
+
+.HeaderSubtitle {
+    margin-top: 0;
+    padding-left: 80px;
+}
 
 .Landing {
     width: 100%;
@@ -39,25 +46,6 @@
     height:auto;
     float:right;
 }
-
-.Header {
-    position: relative;
-    max-width: 1190px;
-    margin: 0 auto;
-}
-
-.HeaderLogo {
-    width: 64px;
-    height: auto;
-    margin:0;
-    padding:0;
-}
-.HeaderTitle {
-    display: inline;
-    position: relative;
-    bottom: 18px;
-}
-
 
 .Button {
     background-color: #afafaf;
@@ -87,16 +75,32 @@
     background-color:#fff
 }
 
-/*
-.menu {
-    margin-left:-100px;
-    margin-right: -100px;
-}*/
-
 .Spacer {
     padding: inherit 5px;
 }
 
 .DownloadLink {
     color: #0090ff;
+}
+
+/*Special Mobile Rules*/
+@media (max-width: 820px) {
+    .HeaderLogo {
+        margin-right: 4px;
+    }
+    .HeaderSubtitle{
+        padding-left: 6px;
+    }
+    .LandingLogo {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        width: 40%;
+        float: none;
+    }    
+    .LandingContent {
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px 0 10px 10px;
+    }
 }
