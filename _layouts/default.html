@@ -15,16 +15,17 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer" style="padding-top:0px;">
       <div class="Header">
-        <a href="./"><img class="HeaderLogo" src="./cwtools_logo.png"></a>
         <header style="margin-left: 10px;">
-          <a href="./"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <a href="./"><img class="HeaderLogo" src="./cwtools_logo.png"></a>
+          <a href="./"><h1 id="project_title" class="HeaderTitle">{{ site.title | default: site.github.repository_name }}</h1></a>
+          
         </header>
         <a id="forkme_banner" href="https://github.com/cwtools">View on GitHub</a>
+        <h2 id="project_tagline" style="text-align: center;">{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </div>
     <div>
-      <h3 align="center" style="color:#fff">
+      <h3 style="text-align:center; color:#fff">
         <a href="./get-started">Get started</a>
         <span class="Spacer"> · </span>
         <a href="./features">Features</a>
@@ -35,10 +36,10 @@
         <span class="Spacer"> · </span>
         <a href="./community">Community</a>
       </h3>
-      <h3 align="center" style="color:#fff">
-        <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" target="_blank">Download Extension › </a>
+      <h3 style="text-align:center; color:#fff">
+        <a href="https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode" class="DownloadLink" target="_blank">Download Extension › </a>
         <span class="Spacer"> · </span>
-        <a href="https://code.visualstudio.com/" target="_blank">Download VS Code › </a>
+        <a href="https://code.visualstudio.com/" class="DownloadLink" target="_blank">Download VS Code › </a>
       </h3>
     </div>
     {% if page.url == "/" %}
