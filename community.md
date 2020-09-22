@@ -17,7 +17,6 @@ Depending on what game you are modding, there are different ways on how to get h
 * [Irony Mod Manager](https://bcssov.github.io/IronyModManager/)
 
 ## Contributors
-Thanks to all contributors and their most notable contribution (next to their name).
 * [Thomas Boby](https://github.com/tboby) "Dayshine" - Creator and maintainer
 * Caligula Caesar
 * [Yard1](https://github.com/Yard1) - Stellaris ruleset
@@ -26,4 +25,6 @@ Thanks to all contributors and their most notable contribution (next to their na
 * [Zonr_0](https://github.com/Zonr0) - CK3 ruleset
 * [CK3 contributors](https://github.com/cwtools/cwtools-ck3-config/graphs/contributors)
 * [Stellaris contributors](https://github.com/cwtools/cwtools-stellaris-config/graphs/contributors)
-* [HOI4 contributors](https://github.com/cwtools/cwtools-hoi4-config/graphs/contributors):
+* [HOI4 contributors](https://github.com/cwtools/cwtools-hoi4-config/graphs/contributors)
+
+**🎉Thanks to all contributors 🎉**
