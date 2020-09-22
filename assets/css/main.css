@@ -79,8 +79,12 @@
     padding: inherit 5px;
 }
 
-.DownloadLink {
+.MenuLink {
     color: #0090ff;
+}
+
+.DownloadLink {
+    color: #0F79D0;
 }
 
 /*Special Mobile Rules*/
