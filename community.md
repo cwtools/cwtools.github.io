@@ -16,10 +16,15 @@ Depending on what game you are modding, there are different ways on how to get h
 * [Stellaris Tech Tree](https://github.com/draconas1/stellaris-tech-tree)
 * [Irony Mod Manager](https://bcssov.github.io/IronyModManager/)
 
-## Credits
+## Contributors
 * [Thomas Boby](https://github.com/tboby) "Dayshine" - Creator and maintainer
 * Caligula Caesar
-* [Yard1](https://github.com/Yard1)
-* HerrX2000 "Reloader" - Website and EU4 1.30
+* [Yard1](https://github.com/Yard1) - Stellaris ruleset
+* [Reloader](https://github.com/HerrX2000) - Website and EU4 1.30 ruleset
+* [LajosTueur](https://github.com/LaTueur) - CK3 ruleset
+* [Zonr_0](https://github.com/Zonr0) - CK3 ruleset
+* [CK3 contributors](https://github.com/cwtools/cwtools-ck3-config/graphs/contributors)
 * [Stellaris contributors](https://github.com/cwtools/cwtools-stellaris-config/graphs/contributors)
 * [HOI4 contributors](https://github.com/cwtools/cwtools-hoi4-config/graphs/contributors)
+
+**🎉Thanks to all contributors 🎉**
